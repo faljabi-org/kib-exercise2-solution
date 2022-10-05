@@ -7,7 +7,7 @@ Problem Solving Case
 This project requires NodeJS and NPM. It was developed on NodeJS v18.6.0. 
 [Node](http://nodejs.org/) and [NPM](https://npmjs.org/) are really easy to install.
 
-1. Install the dependencies:
+1. Install project dependencies:
 
 ```sh
 $ npm install
@@ -16,6 +16,8 @@ $ npm install
 2. Copy your input csv file to the data folder.
 
 ## Usage
+
+To generate the required csv files, please run the below command:
 
 ```sh
 $ node index.js your-input-csv-file.csv
