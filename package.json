@@ -1,0 +1,19 @@
+{
+    "name": "kib-exercise2-solution",
+    "description": "KIB exercise 2 solution",
+    "version": "1.0.0",
+    "author": {
+        "name": "Fadi Al-Jabi"
+    },
+    "main": "index.js",
+    "scripts": {
+        "start": "set NODE_ENV=development&&nodemon index.js input_example.csv"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "csv-parse": "^5.3.0",
+        "json2csv": "^5.0.7",
+        "lodash": "^4.17.21",
+        "nodemon": "^2.0.20"
+    }
+}
