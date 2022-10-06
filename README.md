@@ -22,7 +22,7 @@ To generate the required csv files, please run the below command:
 $ node index.js your-input-csv-file.csv
 ```
 
-## Unit Testing
+## Testing
 
 ```sh
 $ npm test
