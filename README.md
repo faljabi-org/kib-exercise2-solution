@@ -4,8 +4,7 @@ Problem Solving Case
 
 ## Prerequisites
 
-This project requires NodeJS and NPM. It was developed on NodeJS v18.6.0. 
-[Node](http://nodejs.org/) and [NPM](https://npmjs.org/) are really easy to install.
+This project requires NodeJS and NPM. It was developed on NodeJS v18.6.0.
 
 1. Install project dependencies:
 
@@ -23,9 +22,16 @@ To generate the required csv files, please run the below command:
 $ node index.js your-input-csv-file.csv
 ```
 
+## Unit Testing
+
+```sh
+$ npm test
+```
+
 ## Built With
 
 * NodeJS
 * lodash
 * csv-parse
 * json2csv
+* mocha

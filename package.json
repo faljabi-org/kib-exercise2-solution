@@ -7,13 +7,17 @@
     },
     "main": "index.js",
     "scripts": {
-        "start": "set NODE_ENV=development&&nodemon index.js input_example.csv"
+        "start": "nodemon index.js input_example.csv",
+        "test": "mocha"
     },
     "license": "ISC",
     "dependencies": {
         "csv-parse": "^5.3.0",
         "json2csv": "^5.0.7",
-        "lodash": "^4.17.21",
+        "lodash": "^4.17.21"
+    },
+    "devDependencies": {
+        "mocha": "^10.0.0",
         "nodemon": "^2.0.20"
     }
 }
